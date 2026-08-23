@@ -1,0 +1,128 @@
+.checkboxRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: var(--sl-ink-soft);
+  margin-bottom: 18px;
+}
+
+.checkboxRow input {
+  width: 17px;
+  height: 17px;
+  accent-color: var(--sl-blue);
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.stars {
+  display: flex;
+  gap: 6px;
+}
+
+.starBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  color: var(--sl-line);
+  transition: color 0.12s ease, transform 0.1s ease;
+}
+
+.starBtn:hover {
+  transform: translateY(-1px);
+}
+
+.starIcon {
+  width: 34px;
+  height: 34px;
+}
+
+.starActive {
+  color: var(--sl-red);
+}
+
+.photoUpload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 28px 20px;
+  border: 2px dashed var(--sl-line);
+  border-radius: 12px;
+  cursor: pointer;
+  color: var(--sl-ink-soft);
+  transition: border-color 0.15s ease, background 0.15s ease;
+  text-align: center;
+}
+
+.photoUpload:hover {
+  border-color: var(--sl-blue);
+  background: #fafaf7;
+}
+
+.photoUploadIcon {
+  width: 30px;
+  height: 30px;
+  color: var(--sl-blue);
+}
+
+.photoUploadLabel {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--sl-blue);
+}
+
+.photoPreviewWrap {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1.5px solid var(--sl-line);
+}
+
+.photoPreviewImg {
+  display: block;
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+}
+
+.photoRemoveBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(10, 30, 66, 0.75);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  width: 28px;
+  height: 28px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.submittedCard {
+  text-align: center;
+  padding: 44px 24px;
+}
+
+.submittedIconWrap {
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  background: var(--sl-blue);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+}
+
+.submittedIcon {
+  width: 24px;
+  height: 24px;
+}
