@@ -45,22 +45,3 @@ export function CheckIcon({ className }: IconProps) {
     </svg>
   );
 }
-
-export function ImageIcon({ className }: IconProps) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={1.6}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className={className}
-      aria-hidden="true"
-    >
-      <rect x="3.5" y="4.5" width="17" height="15" rx="1.5" />
-      <circle cx="8.5" cy="9.5" r="1.5" />
-      <path d="M20.5 15l-4.6-4.6a1.5 1.5 0 0 0-2.12 0L5 19" />
-    </svg>
-  );
-}
