@@ -29,7 +29,7 @@ export default async function EventPage({ params }: EventPageProps) {
           <span className={shared.eyebrow}>Guestbook</span>
           <h1>{event.name}</h1>
           <p style={{ color: 'var(--sl-ink-soft)', marginTop: 8 }}>
-            Dejá tu mensaje para el gorreado
+            Dejá tu mensaje para el cumpleañero
           </p>
         </div>
         <GuestbookForm eventId={event.id} />

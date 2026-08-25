@@ -162,7 +162,7 @@ export default function GuestbookForm({ eventId }: GuestbookFormProps) {
 
       <div className={styles.field}>
         <label className={shared.fieldLabel} htmlFor="birthdayMessage">
-          Saludo para el gorreado
+          Saludo para el cumpleañero
         </label>
         <textarea
           id="birthdayMessage"
